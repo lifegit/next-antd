@@ -32,3 +32,10 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+
+# visual studio code
+.history
+*.log
+functions/*
+.temp/**

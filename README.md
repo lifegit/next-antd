@@ -1,16 +1,8 @@
-<!--
- * @Author: your name
- * @Date: 2021-10-25 17:23:51
- * @LastEditTime: 2021-11-05 17:25:12
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: /next-demo/README.md
--->
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## create-next-antd
 
-## 入门
+这是一个基于 [Next.js 12](https://nextjs.org/blog/next-12) 、[react 18](https://beta.reactjs.org/) 、[antd](https://ant.design/index-cn) 开箱即用的ssr脚手架。
 
-运行:
+### 运行
 
 ```bash
 npm run dev
@@ -20,22 +12,14 @@ yarn dev
 
 打开 [http://localhost:3000](http://localhost:3000) 查看页面.
 
-通过修改`pages/index.tsx`.编辑文件时，页面会自动更新
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### 相关参考
+- [create-next-app](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)  - next 官方脚手架.
+- [mkn](https://github.com/SolidZORO/mkn) - 带有 Next.js 和 Typescript 的 React 项目的简单 SSR 脚手架.
+- [next-rsc-demo](https://github.com/vercel/next-rsc-demo) - Next.js + React 服务器组件的演示库
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## 动效
-
-* [rc-tween-one](https://motion.ant.design/api/*tween-one-cn)   TweenOne单元素动画
-
-* [rc-animate](https://motion.ant.design/api/animate-cn)     AnimateCss样式动画
-
-* [rc-queue-anim](https://motion.ant.design/api/queue-anim-cn)  QueueAnim进出场动画
-
-* [rc-texty](https://motion.ant.design/api/texty-cn)       TextyAnim文字动画
-
-* [rc-scroll-anim](https://motion.ant.design/api/scroll-anim-cn) ScrollAnim页面滚动动画
-
-* [rc-banner-anim](https://motion.ant.design/api/banner-anim-cn) BannerAnimBanner动画
+### 文档
+- [Learn Next.js](https://nextjs.org/learn) - Next.js 入门互动教程.
+- [Next.js Documentation](https://nextjs.org/docs) - 了解 Next.js 特征和 API.
+- [Next.js Examples](https://nextjs.org/examples) - Next.js 官方 demo 集合.
+- [Next.js Middleware](https://www.ctnicholas.dev/articles/how-to-use-nextjs-middleware) - 如何使用 Next.js 中间件
