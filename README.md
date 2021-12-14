@@ -5,9 +5,13 @@
 ### 运行
 
 ```bash
+### run
 npm run dev
 # or
 yarn dev
+
+### build
+yarn build
 ```
 
 打开 [http://localhost:3000](http://localhost:3000) 查看页面.
